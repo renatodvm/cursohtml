@@ -1,0 +1,24 @@
+/* h2: seletor de elemento ; .exp: seletor de classe ; #email: seletor de ID */
+h2{
+	background-color:#5599DD;
+	color:#DDDDDD;
+	padding:5px;
+}
+.exp{
+	text-indent:50px;
+}
+#email{
+	font-style:italic;
+	text-decoration:underline; // overline; line-through
+}
+body{
+	font-family:sans-serif;
+}
+#corpo{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#cabecalho{
+	text-align:center;
+}
