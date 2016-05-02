@@ -1,0 +1,39 @@
+body {
+	background: #F5F0DC;
+	font-family: Helvetica, Arial, sans-serif;
+	width: 940px;
+	margin: auto;
+}
+
+#titulo {
+	text-align: center;
+}
+
+h2 {
+	background: #B3A742;
+	padding: 5px;
+	color: #FFFFFF;
+}
+
+#tb-nutrientes {
+	border: 1px solid black;
+	width: 40%;
+	margin: auto;
+}
+
+#tb-nutrientes th {
+	background: #F8EA6B; 
+}
+
+#tb-nutrientes tr:nth-child(odd) {
+	background: #F8EAB3;
+}
+
+#tb-nutrientes tr:nth-child(even) {
+	background: #FFFFFF;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+}
