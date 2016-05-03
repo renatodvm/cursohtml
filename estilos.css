@@ -11,8 +11,40 @@ body {
 
 h2 {
 	background: #B3A742;
+	background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B);
+	background: -o-linear-gradient(top, #9C8F67, #C7BE9B);
+	background: -ms-linear-gradient(top, #9C8F67, #C7BE9B);
+	background: -moz-linear-gradient(top, #9C8F67, #C7BE9B);
 	padding: 5px;
 	color: #FFFFFF;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+figure {
+	background: #FFFFFF;
+	width: 400px;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	border: 1px solid black;
+	padding: 15px;
+	box-shadow:5px 5px 3px rgba(0,0,0,0.7);
+}
+
+figure:hover {
+	-webkit-transform:rotate(-5deg);
+	-moz-transform:rotate(-5deg);
+	-o-transform:rotate(-5deg);
+	-ms-transform:rotate(-5deg);
+}
+
+a {
+    color:blue;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
 }
 
 #tb-nutrientes {
