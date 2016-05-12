@@ -6,6 +6,17 @@ body{
 h1,
 h2{
 	font-family:"Open Sans Condensed", "Arial", sans-serif;
+	margin:0;
+}
+
+main{
+	line-height:30px;
+}
+
+main div{
+	width:720px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 main h1{
@@ -13,6 +24,8 @@ main h1{
 	background-color:#851944; /*rgb(120,30,60)*/
 	color:#FFFFFF;
 	text-align:center;
+	padding:25px;
+	border-bottom:10px solid #000;
 }
 
 main a{
@@ -29,11 +42,27 @@ p{
 
 blockquote{
 	background-color:#D9E5E3;
+	border:10px solid #C2CCCA;
+	width:250px;
+	margin:0;
+	box-sizing: border-box;
+	border-bottom-color: #333; /*transparent - efeito interessante... A borda está lá, mas fica transparente. Parece 3D. */
+    border-right-color: #FFF;
+}
+
+blockquote,
+aside,
+footer {
+	padding:20px;
 }
 
 nav{
 	background:#3C1D3D;
 	color:#F2FFFC;
+}
+
+aside{
+	text-align:center;
 }
 
 nav a{
@@ -45,3 +74,42 @@ footer{
 	background:#000;
 	color:#F2FFFC;
 }
+
+
+/*
+
+Desenho do símbolo de "Pausa"
+#teste{
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    width: 5px;
+    height: 30px;
+}
+
+Desenho de um triângulo
+#teste{
+    border-bottom: 30px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 0;
+}
+
+Desenho de uma gravata borboleta
+#teste{
+    border-left: 30px solid red;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-right: 30px solid red;
+    width: 0;
+}
+
+Desenho de um triângulo reto
+#teste{
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 0;
+}
+
+*/
