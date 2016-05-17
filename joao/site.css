@@ -17,6 +17,8 @@ main div{
 	width:720px;
 	margin-left:auto;
 	margin-right:auto;
+	margin-bottom:30px;
+	margin-top:30px;
 }
 
 main h1{
@@ -28,23 +30,32 @@ main h1{
 	border-bottom:10px solid #000;
 }
 
+strong{
+	font-weight:bold;
+}
+
+em{
+	font-style:italic;
+}
+
 main a{
 	color:#851944;
 }
 
 h2{
-	font-size:40px;
+	font-size:30px;
 }
 
 p{
 	text-align:justify;
+	margin:20px 0;
 }
 
 blockquote{
 	background-color:#D9E5E3;
 	border:10px solid #C2CCCA;
 	width:250px;
-	margin:0;
+	margin:20px 40px;
 	box-sizing: border-box;
 	border-bottom-color: #333; /*transparent - efeito interessante... A borda está lá, mas fica transparente. Parece 3D. */
     border-right-color: #FFF;
@@ -68,6 +79,11 @@ aside{
 nav a{
 	color:inherit;
 	font-family:"Open Sans Condensed", "Arial", sans-serif;
+}
+
+aside h1{
+	font-size:30px;
+	margin-bottom:25px;
 }
 
 footer{
