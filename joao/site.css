@@ -91,6 +91,10 @@ footer{
 	color:#F2FFFC;
 }
 
+aside li{
+	display:inline-block;
+}
+
 
 /*
 
