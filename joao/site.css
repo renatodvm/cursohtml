@@ -72,7 +72,7 @@ nav{
 	color:#F2FFFC;
 }
 
-aside{
+.links-paginas{
 	text-align:center;
 }
 
@@ -81,18 +81,33 @@ nav a{
 	font-family:"Open Sans Condensed", "Arial", sans-serif;
 }
 
-aside h1{
+.links-paginas h1{
 	font-size:30px;
 	margin-bottom:25px;
 }
 
-footer{
+.link-blog{
+	font-size:24px;
+	padding:8px;
+	margin:16px;
+	background:#E6E7E8;
+	text-align:center;
+	display:block;
+}
+
+.rodape-pagina{
 	background:#000;
 	color:#F2FFFC;
 }
 
-aside li{
+.icones-sociais li{
 	display:inline-block;
+}
+
+.artigo-blog{
+	padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
 }
 
 
