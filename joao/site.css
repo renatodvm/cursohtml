@@ -135,6 +135,13 @@ li{
 	list-style-type:none;
 }
 
+.fiat {
+	float:right;
+}
+
+.petrobras{
+	float:left;
+}
 
 /*
 
