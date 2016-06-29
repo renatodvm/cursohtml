@@ -14,15 +14,6 @@ h1 {
     text-transform: uppercase;
 }
 
-.citacao-bio {
-    background-color: #D9E5E3;
-    border: 10px solid #C2CCCA;
-    padding: 20px;
-    margin: 20px 40px;
-    width: 250px;
-    box-sizing: border-box;
-}
-
 .titulo-principal {
     font-size: 60px;;
     text-align: center;
@@ -94,15 +85,6 @@ em {
     display: inline-block;
 }
 
-.leia-mais {
-    padding: 8px;
-    margin: 16px;
-    display: block;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
-}
-
 .icones-redes-sociais a {
     width: 40px;
     height: 40px;
@@ -111,25 +93,15 @@ em {
 }
 
 .github {
-    background-image: url(github.png);
+    background-image: url(../img/github.png);
 }
 
 .twitter {
-    background-image: url(twitter.png);
+    background-image: url(../img/twitter.png);
 }
 
 .linkedin {
-    background-image: url(linkedin.png);
-}
-
-.petrobras {
-    float: left;
-    margin-left: 0;
-}
-
-.fiat {
-    float: right;
-    margin-right: 0;
+    background-image: url(../img/linkedin.png);
 }
 
 main {
